@@ -1,0 +1,44 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "plugin:react/recommended",
+    "plugin:jest/all",
+    "airbnb",
+    "airbnb/hooks"
+  ],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react",
+    "jest",
+    "simple-import-sort"
+  ],
+  "rules": {
+    "jest/lowercase-name": 0,
+    "no-use-before-define": [
+      "error",
+      {
+        "variables": false
+      }
+    ],
+    "yoda": [
+      "error",
+      "always",
+      {
+        "onlyEquality": true
+      }
+    ],
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "off",
+    "sort-imports": "off"
+  }
+}
