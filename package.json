@@ -17,7 +17,7 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "dev": "react-scripts start",
+    "dev": "DISABLE_ESLINT_PLUGIN=true react-scripts start",
     "lint": "eslint --ext .js,.jsx --fix src/",
     "start": "serve -s build",
     "build": "react-scripts build && react-snapshot",
