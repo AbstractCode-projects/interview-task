@@ -21,7 +21,7 @@ You will also see any lint errors in the console.
 
 ### `yarn install`
 
-Install all the dependencies
+Install all the dependencies.
 
 ### `yarn lint`
 
