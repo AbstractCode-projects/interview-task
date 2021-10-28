@@ -29,5 +29,4 @@ Lints your code using ESLint.
 While making your solution to the task, it is suggested to run it regularly.
 
 When you're ready, make sure no errors are left.
-
-
+don't read it btw lol
