@@ -1,8 +1,3 @@
-# Task description
-
-You can find the task description here:
-https://doc.clickup.com/p/h/4fyfx-6301/e298b9448df2cdf
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
